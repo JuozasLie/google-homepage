@@ -106,12 +106,34 @@ main {
     flex-direction: column;
     text-align: center;
 }
-#google-search{
-    margin: 1.7rem 0 2.3rem 0;
-    width: 35%;
-    height: 2.5rem;
-    border-radius: 10px;
+#google-search-div{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 1.7rem 1rem 2.3rem 1rem;
+    border: 1px solid #dadce0;
+    border-radius: 20px;
+    padding: 0 1rem 0 1rem;
 }
+.search-icon{
+    color: gray;
+    font-size: 1.2rem;
+    margin-right: .5rem;
+}
+#google-search{
+    width: 38vw;
+    height: 2.5rem;
+    border:none;
+}
+#google-search:focus{
+    outline: none;
+    outline-width: 0;
+}
+/* #google-search:focus + #google-search-div,
+#google-search:active + #google-search-div{
+    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+} */
 #search-buttons{
     display:flex;
     justify-content: center;
