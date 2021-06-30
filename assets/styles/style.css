@@ -27,6 +27,7 @@ tr, th, td {
 }
 body{
     background-color: white;
+    overflow-x: hidden;
 }
 /* set the font as in the google homepage */
 body, input, button {
@@ -106,4 +107,27 @@ main {
 footer {
     position: fixed;
     bottom: 0px;
+    background-color: #F2F2F2;
+}
+#region-text p{
+    color: #6F6F6F;
+    margin: 1rem 0 1.3rem 1.8rem;
+}
+.footer-links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+}
+.footer-links div{
+    margin: 1rem;
+}
+.footer-link{
+    text-decoration: none;
+    color: #6F6F6F;
+    margin: .9rem;
+
+}
+.footer-link:hover{
+    text-decoration: underline;
 }
